@@ -4,7 +4,8 @@ class Person
   def initialize(attributes)
     attributes.each do |key, value|
       key
-      binding.pry 
+      binding.pry
+    end
   end
-    
+
 end

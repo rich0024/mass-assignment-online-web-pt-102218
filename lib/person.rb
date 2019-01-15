@@ -1,4 +1,4 @@
-require pry
+require 'pry'
 class Person
   #your code here
   def initialize(attributes)

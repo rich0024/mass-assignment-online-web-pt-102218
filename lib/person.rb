@@ -5,8 +5,7 @@ class Person
 
   def initialize(attributes)
     attributes.each do |key, value|
-      key
-      binding.pry
+      self.send("#{key}=", value) #=> self.name("Avi""), ArgumentError given 1 expected 0
     end
   end
 
